@@ -1,6 +1,9 @@
 {
   "item.tutorialmod.ruby": "ルビー",
-  "item.tutorialmod.raw_ruby": "ルビー鉱石",
+  "item.tutorialmod.raw_ruby": "ルビーの原石",
+
+  "block.tutorialmod.ruby_block": "ルビーブロック",
+  "block.tutorialmod.raw_ruby_block": "ルビー鉱石",
 
   "itemgroup.ruby": "ルビー101"
 }
