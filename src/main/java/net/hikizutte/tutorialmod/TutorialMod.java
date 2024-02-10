@@ -3,6 +3,7 @@ package net.hikizutte.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.hikizutte.tutorialmod.block.ModBlocks;
 import net.hikizutte.tutorialmod.item.ModItems;
 import net.hikizutte.tutorialmod.item.ModItemsGroups;
@@ -19,5 +20,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE,200);
 	}
 }

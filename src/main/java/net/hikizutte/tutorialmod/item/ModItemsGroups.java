@@ -19,6 +19,11 @@ public class ModItemsGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
 
+                        entries.add(ModItems.METAL_DETECTOR);
+
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.COAL_BRIQUETTE);
+
                         entries.add(Items.DIAMOND);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
@@ -28,6 +33,8 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
+
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                     }).build());
 
