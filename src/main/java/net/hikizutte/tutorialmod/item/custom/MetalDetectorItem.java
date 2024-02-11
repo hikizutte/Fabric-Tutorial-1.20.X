@@ -3,12 +3,19 @@ package net.hikizutte.tutorialmod.item.custom;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class MetalDetectorItem  extends Item {
     public MetalDetectorItem(Settings settings) {
@@ -27,7 +34,7 @@ public class MetalDetectorItem  extends Item {
                 BlockState state = context.getWorld().getBlockState(positionClicked.down(i));
 
                 if (i == 0 && isValuableBlock(state)) {
-                    player.sendMessage(Text.literal("You're lookin' at it, stupid."));
+                    player.sendMessage(Text.translatable("item.tutorialmod.metal_detector.stupid"));
                     foundBlock = true;
                     break;
                 }
@@ -44,7 +51,7 @@ public class MetalDetectorItem  extends Item {
             }
 
             if(!foundBlock) {
-                player.sendMessage(Text.literal("No valuables Found"));
+                player.sendMessage(Text.translatable("item.tutorialmod.metal_detector.notValuableFound"));
             }
 
         }
@@ -55,11 +62,17 @@ public class MetalDetectorItem  extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Found" + block.asItem().getName().getString() + "at" +
-                "(" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"), false);
+        player.sendMessage(Text.translatable("item.tutorialmod.metal_detector.foundValuable", block.asItem().getName().getString(),
+                blockPos.getX(), blockPos.getY(), blockPos.getZ()), false);
     }
 
     private boolean isValuableBlock(BlockState state) {
         return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.tutorialmod.metal_detector.tooltip").formatted(Formatting.GRAY));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }

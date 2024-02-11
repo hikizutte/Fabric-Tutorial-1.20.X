@@ -1,7 +1,12 @@
 {
   "item.tutorialmod.ruby": "ルビー",
   "item.tutorialmod.raw_ruby": "ルビーの原石",
-  "item.tutorialmod.metal_detector": "金属探知機",
+  "item.tutorialmod.metal_detector": "鉱石探知機",
+  "item.tutorialmod.metal_detector.stupid": "目の前にあるよwww",
+  "item.tutorialmod.metal_detector.notValuableFound": "対象の鉱石が見つかりません。",
+  "item.tutorialmod.metal_detector.foundValuable": "%1$dが見つかりました。 (%2$d, %3$d, %4$d)",
+  "tooltip.tutorialmod.metal_detector.tooltip": "地下から対象の鉱石を発見する。",
+
   "item.tutorialmod.tomato": "トマト",
   "item.tutorialmod.coal_briquette": "成形石炭",
 

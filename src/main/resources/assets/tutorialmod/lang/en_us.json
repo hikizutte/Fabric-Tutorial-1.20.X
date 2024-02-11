@@ -2,6 +2,11 @@
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "item.tutorialmod.metal_detector": "Metal Detector",
+  "item.tutorialmod.metal_detector.stupid": "You're lookin' at it, stupid.",
+  "item.tutorialmod.metal_detector.notValuableFound": "No valuables Found",
+  "item.tutorialmod.metal_detector.foundValuable": "Found %1$d at (%2$d, %3$d, %4$d)",
+  "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
+
   "item.tutorialmod.tomato": "Tomato",
   "item.tutorialmod.coal_briquette": "Coal Briquette",
 
