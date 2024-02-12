@@ -20,5 +20,15 @@
 
   "block.tutorialmod.sound_block": "音ブロック",
 
+  "block.tutorialmod.ruby_stairs": "ルビーの階段",
+  "block.tutorialmod.ruby_slab": "ルビーのハーフブロック",
+  "block.tutorialmod.ruby_button": "ルビーのボタン",
+  "block.tutorialmod.ruby_pressure_plate": "ルビーの感圧版",
+  "block.tutorialmod.ruby_fence": "ルビーのフェンス",
+  "block.tutorialmod.ruby_fence_gate": "ルビーのフェンスゲート",
+  "block.tutorialmod.ruby_wall": "ルビーの壁",
+  "block.tutorialmod.ruby_door": "ルビーのドア",
+  "block.tutorialmod.ruby_trapdoor": "ルビーのトラップドア",
+
   "itemgroup.ruby": "ルビー101"
 }
