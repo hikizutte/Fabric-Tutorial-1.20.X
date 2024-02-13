@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ici",
+    "ici"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "i": {
+      "item": "tutorialmod:ruby"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "tutorialmod:ruby_wall"
+  },
+  "show_notification": true
+}

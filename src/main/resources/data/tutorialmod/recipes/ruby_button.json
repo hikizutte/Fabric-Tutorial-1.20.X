@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "iron_button",
+  "ingredients": [
+    {
+      "item": "tutorialmod:ruby"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:ruby_button"
+  }
+}
