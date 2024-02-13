@@ -46,16 +46,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.RUBY_BUTTON, 1)
-                .input(ModItems.RUBY)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_BUTTON)));
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.RUBY_PRESSURE_PLATE, 1)
-
-                .input(ModItems.RUBY)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_PRESSURE_PLATE)));
 
         createStairsRecipe(ModBlocks.RUBY_STAIRS.asItem(),
                 ofItems(ModItems.RUBY))
@@ -84,5 +74,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_TRAPDOOR)));;
+
     }
 }
