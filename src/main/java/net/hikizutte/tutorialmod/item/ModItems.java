@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hikizutte.tutorialmod.TutorialMod;
+import net.hikizutte.tutorialmod.block.ModBlocks;
 import net.hikizutte.tutorialmod.item.custom.MetalDetectorItem;
 import net.hikizutte.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.item.*;
@@ -44,6 +45,9 @@ public class ModItems {
             new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

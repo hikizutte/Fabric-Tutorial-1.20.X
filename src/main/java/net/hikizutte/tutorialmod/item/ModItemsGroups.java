@@ -22,6 +22,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.METAL_DETECTOR);
 
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.COAL_BRIQUETTE);
 
                         entries.add(ModItems.RUBY_STAFF);
