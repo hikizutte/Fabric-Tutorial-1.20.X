@@ -53,6 +53,8 @@ public class ModItemsGroups {
 
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        entries.add(ModBlocks.DAHLIA);
+
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);
                         entries.add(ModBlocks.RUBY_FENCE);
