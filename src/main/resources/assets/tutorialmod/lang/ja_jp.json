@@ -47,5 +47,7 @@
   "block.tutorialmod.ruby_door": "ルビーのドア",
   "block.tutorialmod.ruby_trapdoor": "ルビーのトラップドア",
 
+  "entity.minecraft.villager.sound_master": "音楽家",
+
   "itemgroup.ruby": "ルビー101"
 }
