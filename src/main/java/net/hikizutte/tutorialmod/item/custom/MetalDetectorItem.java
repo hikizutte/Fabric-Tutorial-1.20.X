@@ -4,7 +4,6 @@ import net.hikizutte.tutorialmod.sound.ModSounds;
 import net.hikizutte.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -47,7 +46,7 @@ public class MetalDetectorItem  extends Item {
                     foundBlock = true;
 
                     context.getWorld().playSound(null, positionClicked, ModSounds.METAL_DETECTOR_FOUND_ORE,
-                            SoundCategory.BLOCKS, 1f, 1f);
+                            SoundCategory.BLOCKS, 1f, 1f);  //音声の追加
 
                     break;
                 }
