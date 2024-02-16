@@ -42,6 +42,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.RUBY_BOOTS);
 
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+                        entries.add(ModItems.PORCUPINE_SPAWN_EGG);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);

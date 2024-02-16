@@ -3,8 +3,11 @@ package net.hikizutte.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.hikizutte.tutorialmod.block.ModBlocks;
+import net.hikizutte.tutorialmod.entity.ModEntities;
+import net.hikizutte.tutorialmod.entity.custom.PorcupineEntity;
 import net.hikizutte.tutorialmod.item.ModItems;
 import net.hikizutte.tutorialmod.item.ModItemsGroups;
 import net.hikizutte.tutorialmod.util.ModCustomTrades;
@@ -30,5 +33,6 @@ public class TutorialMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE,200);
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }

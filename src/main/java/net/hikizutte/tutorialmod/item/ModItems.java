@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hikizutte.tutorialmod.TutorialMod;
 import net.hikizutte.tutorialmod.block.ModBlocks;
+import net.hikizutte.tutorialmod.entity.ModEntities;
 import net.hikizutte.tutorialmod.item.custom.MetalDetectorItem;
 import net.hikizutte.tutorialmod.item.custom.ModArmorItem;
 import net.hikizutte.tutorialmod.sound.ModSounds;
@@ -57,6 +58,9 @@ public class ModItems {
 
     public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
             new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
 
 
