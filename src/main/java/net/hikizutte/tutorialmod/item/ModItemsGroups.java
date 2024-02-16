@@ -41,7 +41,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
 
-                        entries.add(Items.DIAMOND);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
