@@ -55,6 +55,7 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.SOUND_BLOCK);
 
                         entries.add(ModBlocks.DAHLIA);
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
 
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);

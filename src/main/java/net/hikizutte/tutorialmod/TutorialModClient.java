@@ -9,7 +9,11 @@ import net.hikizutte.tutorialmod.entity.ModEntities;
 import net.hikizutte.tutorialmod.entity.client.ModModelLayers;
 import net.hikizutte.tutorialmod.entity.client.PorcupineModel;
 import net.hikizutte.tutorialmod.entity.client.PorcupineRenderer;
+import net.hikizutte.tutorialmod.screen.GemPolishingScreen;
+import net.hikizutte.tutorialmod.screen.ModScreenHandlers;
 import net.minecraft.block.Block;
+import net.minecraft.client.gui.screen.ingame.HandledScreen;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 
 public class TutorialModClient implements ClientModInitializer {
@@ -26,5 +30,7 @@ public class TutorialModClient implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
+
+        HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
     }
 }
