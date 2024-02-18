@@ -2,7 +2,6 @@ package net.hikizutte.tutorialmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricLootTableProvider;
 import net.hikizutte.tutorialmod.block.ModBlocks;
 import net.hikizutte.tutorialmod.block.custom.CornCropBlock;
 import net.hikizutte.tutorialmod.block.custom.TomatoCropBlock;
@@ -11,7 +10,6 @@ import net.minecraft.block.Block;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.AnyOfLootCondition;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
@@ -66,6 +64,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.DAHLIA);
         addPottedPlantDrops(ModBlocks.POTTED_DAHLIA);
+
+        addDrop(ModBlocks.CHESTNUT_LOG);
+        addDrop(ModBlocks.CHESTNUT_WOOD);
+        addDrop(ModBlocks.STRIPPED_CHESTNUT_LOG);
+        addDrop(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+        addDrop(ModBlocks.CHESTNUT_PLANKS);
+
+        addDrop(ModBlocks.CHESTNUT_LEAVES, leavesDrops(ModBlocks.CHESTNUT_LEAVES, ModBlocks.RUBY_SLAB, 0.0025f)); // TODO
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

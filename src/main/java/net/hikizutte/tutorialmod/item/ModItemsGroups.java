@@ -5,7 +5,6 @@ import net.hikizutte.tutorialmod.TutorialMod;
 import net.hikizutte.tutorialmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -66,6 +65,13 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
                         entries.add(ModBlocks.RUBY_BUTTON);
                         entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+
+                        entries.add(ModBlocks.CHESTNUT_LOG);
+                        entries.add(ModBlocks.CHESTNUT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+                        entries.add(ModBlocks.CHESTNUT_PLANKS);
+                        entries.add(ModBlocks.CHESTNUT_LEAVES);
 
                     }).build());
 

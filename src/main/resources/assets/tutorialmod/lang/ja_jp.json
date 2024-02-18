@@ -54,6 +54,13 @@
   "block.tutorialmod.ruby_door": "ルビーのドア",
   "block.tutorialmod.ruby_trapdoor": "ルビーのトラップドア",
 
+  "block.tutorialmod.chestnut_log": "栗の原木",
+  "block.tutorialmod.chestnut_wood": "栗の木",
+  "block.tutorialmod.stripped_chestnut_log": "樹木を剥いだ栗の原木",
+  "block.tutorialmod.stripped_chestnut_wood": "樹木を剥いだ栗の木",
+  "block.tutorialmod.chestnut_planks": "栗の木材",
+  "block.tutorialmod.chestnut_leaves": "栗の葉",
+
   "entity.minecraft.villager.sound_master": "音楽家",
 
   "itemgroup.ruby": "ルビー101"

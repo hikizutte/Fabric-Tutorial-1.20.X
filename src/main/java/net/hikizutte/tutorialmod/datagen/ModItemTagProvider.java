@@ -2,10 +2,10 @@ package net.hikizutte.tutorialmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.hikizutte.tutorialmod.block.ModBlocks;
 import net.hikizutte.tutorialmod.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -26,5 +26,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.CHESTNUT_LOG.asItem())
+                .add(ModBlocks.CHESTNUT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_CHESTNUT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_CHESTNUT_WOOD.asItem());
     }
 }
