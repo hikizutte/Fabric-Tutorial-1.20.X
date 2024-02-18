@@ -3,10 +3,7 @@ package net.hikizutte.tutorialmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.hikizutte.tutorialmod.TutorialMod;
-import net.hikizutte.tutorialmod.block.custom.CornCropBlock;
-import net.hikizutte.tutorialmod.block.custom.GemPolishingStationBlock;
-import net.hikizutte.tutorialmod.block.custom.SoundBlock;
-import net.hikizutte.tutorialmod.block.custom.TomatoCropBlock;
+import net.hikizutte.tutorialmod.block.custom.*;
 import net.hikizutte.tutorialmod.sound.ModSounds;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
@@ -87,6 +84,8 @@ public class ModBlocks {
     public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
 
+    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "dice_block"),
+            new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

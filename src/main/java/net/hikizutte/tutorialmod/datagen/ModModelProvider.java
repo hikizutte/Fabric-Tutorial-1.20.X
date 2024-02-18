@@ -77,6 +77,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.DICE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
     }
