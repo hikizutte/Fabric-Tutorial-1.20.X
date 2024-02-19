@@ -1,8 +1,8 @@
-// 1.20.2	2024-02-18T16:21:19.9829421	Tutorial Mod/Block Loot Tables
+// 1.20.2	2024-02-19T09:32:55.3533035	Tutorial Mod/Block Loot Tables
 cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data\tutorialmod\loot_tables\blocks\sound_block.json
 62b525cc60879fed99f9e678c1a93d25c0d3bdad data\tutorialmod\loot_tables\blocks\dahlia.json
-681956b5e18f7d1d59f004198e5b9ad0c12192e3 data\tutorialmod\loot_tables\blocks\potted_dahlia.json
 3f950c6a949fc7757f6ee79a0dc95e652cf721fa data\tutorialmod\loot_tables\blocks\ruby_ore.json
+681956b5e18f7d1d59f004198e5b9ad0c12192e3 data\tutorialmod\loot_tables\blocks\potted_dahlia.json
 4bf0bfaf4e6545bdaa95f0e9a62a72e5b62bb9d0 data\tutorialmod\loot_tables\blocks\ruby_stairs.json
 b3340c719a7e5b717cd9ccf26d03d2932423aeff data\tutorialmod\loot_tables\blocks\chestnut_wood.json
 865399c15f94da491a91fa8bc983868706016198 data\tutorialmod\loot_tables\blocks\ruby_wall.json
