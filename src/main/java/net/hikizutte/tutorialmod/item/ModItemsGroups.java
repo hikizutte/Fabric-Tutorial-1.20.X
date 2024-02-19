@@ -20,10 +20,12 @@ public class ModItemsGroups {
 
                         entries.add(ModItems.METAL_DETECTOR);
 
-                        entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModItems.TOMATO);
                         entries.add(ModItems.CORN);
+
+                        entries.add(ModBlocks.DAHLIA);
 
                         entries.add(ModItems.COAL_BRIQUETTE);
 
@@ -44,8 +46,8 @@ public class ModItemsGroups {
                         entries.add(ModItems.PORCUPINE_SPAWN_EGG);
 
                         entries.add(ModItems.DICE);
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
 
-                        entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                         entries.add(ModBlocks.RUBY_ORE);
@@ -55,9 +57,8 @@ public class ModItemsGroups {
 
                         entries.add(ModBlocks.SOUND_BLOCK);
 
-                        entries.add(ModBlocks.DAHLIA);
-                        entries.add(ModBlocks.GEM_POLISHING_STATION);
 
+                        entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);
                         entries.add(ModBlocks.RUBY_FENCE);
@@ -74,6 +75,7 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
                         entries.add(ModBlocks.CHESTNUT_PLANKS);
                         entries.add(ModBlocks.CHESTNUT_LEAVES);
+                        entries.add(ModBlocks.CHESTNUT_SAPLING);
 
                     }).build());
 

@@ -1,4 +1,4 @@
-// 1.20.2	2024-02-19T09:32:55.3533035	Tutorial Mod/Block Loot Tables
+// 1.20.2	2024-02-19T10:16:43.031603	Tutorial Mod/Block Loot Tables
 cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data\tutorialmod\loot_tables\blocks\sound_block.json
 62b525cc60879fed99f9e678c1a93d25c0d3bdad data\tutorialmod\loot_tables\blocks\dahlia.json
 3f950c6a949fc7757f6ee79a0dc95e652cf721fa data\tutorialmod\loot_tables\blocks\ruby_ore.json
@@ -12,7 +12,7 @@ b3340c719a7e5b717cd9ccf26d03d2932423aeff data\tutorialmod\loot_tables\blocks\che
 38e063304cdf3b20b5eb65a453c524e0dcccfcff data\tutorialmod\loot_tables\blocks\stripped_chestnut_log.json
 01b515238d9fe6e695ccb6cde2add8caa23ef2d1 data\tutorialmod\loot_tables\blocks\deepslate_ruby_ore.json
 4f767a7637e8a06ab8dc288b173877b52afc87f4 data\tutorialmod\loot_tables\blocks\ruby_button.json
-aa507cc1a4562ded529cd50405305aa5201124d1 data\tutorialmod\loot_tables\blocks\chestnut_leaves.json
+687f631f91b0e987dfd695cafb332313d44b8539 data\tutorialmod\loot_tables\blocks\chestnut_leaves.json
 af40d80306717301f6cc60b19c082a4df9ad8c1e data\tutorialmod\loot_tables\blocks\chestnut_log.json
 8fb6c58892093a4f3b3cfb425b862efcdedcc873 data\tutorialmod\loot_tables\blocks\nether_ruby_ore.json
 a77a150c7851fbaf830081a89b0e3371ad62225d data\tutorialmod\loot_tables\blocks\ruby_fence_gate.json
