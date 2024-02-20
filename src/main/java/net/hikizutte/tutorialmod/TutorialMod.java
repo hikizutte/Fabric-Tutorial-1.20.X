@@ -18,6 +18,8 @@ import net.hikizutte.tutorialmod.util.ModCustomTrades;
 import net.hikizutte.tutorialmod.util.ModLootTableModifiers;
 import net.hikizutte.tutorialmod.villager.ModVillagers;
 import net.hikizutte.tutorialmod.world.gen.ModWorldGeneration;
+import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -58,5 +60,12 @@ public class TutorialMod implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LEAVES, 30, 60);
 
 		ModWorldGeneration.generateModWorldGen();
+
+		CustomPortalBuilder.beginPortal()
+				.frameBlock(ModBlocks.RUBY_BLOCK)
+				.lightWithItem(ModItems.CORN)
+				.destDimID(new Identifier(TutorialMod.MOD_ID, "kaupendim"))
+				.tintColor(0xc76efa)
+				.registerPortal();
 	}
 }
